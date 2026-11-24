@@ -1,0 +1,98 @@
+{
+  "dataset": "fuel-benchmarks-2026-de",
+  "title": "Brennstoff-Referenzpreise, Heizwerte, Wirkungsgrade & BEHG CO₂-Preis 2026 (DE/DACH)",
+  "version": "2026.1.0",
+  "year": 2026,
+  "updated_at": "2026-11-24",
+  "region": "DE/AT/CH",
+  "behg_co2_corridor_eur_per_t": [55, 65],
+  "co2_price_per_ton_eur": 65,
+  "vat_rate_de": 0.19,
+  "default_annual_demand_kwh": 18000,
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "DEHSt / Umweltbundesamt — Nationaler Brennstoffemissionshandel (BEHG) & Emissionsfaktoren",
+      "url": "https://www.umweltbundesamt.de/"
+    },
+    {
+      "name": "TFZ Bayern — Technologie- und Förderzentrum Straubing (Scheitholz-Referenzwerte)",
+      "url": "https://www.tfz.bayern.de/"
+    },
+    {
+      "name": "FNR — Fachagentur Nachwachsende Rohstoffe e.V. (Biogene Festbrennstoffe)",
+      "url": "https://www.fnr.de/"
+    },
+    {
+      "name": "DEPI — Deutsches Pelletinstitut (ENplus A1 Pelletpreis-Referenz)",
+      "url": "https://depi.de/"
+    }
+  ],
+  "reference_calculator": "https://heizrechner.com",
+  "fuels": [
+    {
+      "id": "pellets",
+      "name": "Holzpellets ENplus A1",
+      "short_name": "Holzpellets",
+      "unit": "t",
+      "unit_label": "t (lose, 6 t)",
+      "hu": 4800,
+      "hu_unit": "kWh/t",
+      "default_efficiency_pct": 90,
+      "default_price_eur": 395,
+      "default_price_chf": 430,
+      "co2_emission_factor_kg_per_unit": 0,
+      "co2_tax_per_unit_eur": 0,
+      "co2_note": "0 €/t BEHG-CO₂-Abgabe (biogener Brennstoff)",
+      "reference_source": "DEPI 2026 Referenzpreis (6 t lose ENplus A1)"
+    },
+    {
+      "id": "holz",
+      "name": "Brennholz Buche (33 cm)",
+      "short_name": "Buche (33 cm)",
+      "unit": "SRM",
+      "unit_label": "SRM (33 cm)",
+      "hu": 1500,
+      "hu_unit": "kWh/SRM",
+      "default_efficiency_pct": 80,
+      "default_price_eur": 115,
+      "default_price_chf": 135,
+      "co2_emission_factor_kg_per_unit": 0,
+      "co2_tax_per_unit_eur": 0,
+      "co2_note": "0 €/t BEHG-CO₂-Abgabe (TFZ 2.100 kWh/RM ÷ 1,40)",
+      "reference_source": "TFZ / FNR Wind- & Kammertrocknung (18 % Restfeuchte)"
+    },
+    {
+      "id": "gas",
+      "name": "Erdgas",
+      "short_name": "Erdgas",
+      "unit": "kWh",
+      "unit_label": "kWh",
+      "hu": 1.0,
+      "hu_unit": "kWh/kWh",
+      "default_efficiency_pct": 92,
+      "default_price_eur": 0.12,
+      "default_price_chf": 0.145,
+      "co2_emission_factor_kg_per_unit": 0.201,
+      "co2_tax_per_unit_eur": 0.0155,
+      "co2_note": "inkl. BEHG 2026 (ca. 1,55 ct/kWh inkl. 19 % MwSt.)",
+      "reference_source": "2026 Endkunden-Arbeitspreis DACH inkl. Netzentgelte"
+    },
+    {
+      "id": "oel",
+      "name": "Heizöl EL (inkl. CO₂-Preis)",
+      "short_name": "Heizöl EL",
+      "unit": "L",
+      "unit_label": "Liter",
+      "hu": 10.0,
+      "hu_unit": "kWh/L",
+      "default_efficiency_pct": 90,
+      "default_price_eur": 1.55,
+      "default_price_chf": 1.38,
+      "co2_emission_factor_kg_per_unit": 2.68,
+      "co2_tax_per_unit_eur": 0.207,
+      "co2_note": "inkl. BEHG 2026 (65 €/t ≈ 20,7 ct/L inkl. 19 % MwSt.)",
+      "reference_source": "2026 Richtpreis bei 3.000 L inkl. BEHG-Korridor"
+    }
+  ]
+}

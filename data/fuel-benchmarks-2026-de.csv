@@ -1,0 +1,5 @@
+id,name,short_name,unit,unit_label,hu,hu_unit,default_efficiency_pct,default_price_eur,default_price_chf,co2_emission_factor_kg_per_unit,co2_tax_per_unit_eur,co2_note,reference_source
+pellets,Holzpellets ENplus A1,Holzpellets,t,"t (lose, 6 t)",4800,kWh/t,90,395,430,0,0,0 €/t BEHG-CO₂-Abgabe (biogener Brennstoff),DEPI 2026 Referenzpreis (6 t lose ENplus A1)
+holz,Brennholz Buche (33 cm),Buche (33 cm),SRM,SRM (33 cm),1500,kWh/SRM,80,115,135,0,0,"0 €/t BEHG-CO₂-Abgabe (TFZ 2.100 kWh/RM ÷ 1,40)",TFZ / FNR Wind- & Kammertrocknung (18 % Restfeuchte)
+gas,Erdgas,Erdgas,kWh,kWh,1,kWh/kWh,92,0.12,0.145,0.201,0.0155,"inkl. BEHG 2026 (ca. 1,55 ct/kWh inkl. 19 % MwSt.)",2026 Endkunden-Arbeitspreis DACH inkl. Netzentgelte
+oel,Heizöl EL (inkl. CO₂-Preis),Heizöl EL,L,Liter,10,kWh/L,90,1.55,1.38,2.68,0.207,"inkl. BEHG 2026 (65 €/t ≈ 20,7 ct/L inkl. 19 % MwSt.)",2026 Richtpreis bei 3.000 L inkl. BEHG-Korridor

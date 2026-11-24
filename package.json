@@ -1,0 +1,57 @@
+{
+  "name": "brennholz-heizung-daten-de",
+  "version": "2026.1.0",
+  "description": "Zero-dependency ESM calculation engine & open reference datasets (2026) for German firewood units (RM/SRM/FM), oil tank dipstick geometry (DIN 6608, battery & sphere), and heating fuel costs incl. BEHG CO₂ pricing.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./data/wood-species-de.json": "./data/wood-species-de.json",
+    "./data/oil-tanks-standard-de.json": "./data/oil-tanks-standard-de.json",
+    "./data/fuel-benchmarks-2026-de.json": "./data/fuel-benchmarks-2026-de.json"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "homepage": "https://heizrechner.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heizrechner/brennholz-heizung-daten-de.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heizrechner/brennholz-heizung-daten-de/issues"
+  },
+  "keywords": [
+    "brennholz",
+    "raummeter",
+    "schuettraummeter",
+    "festmeter",
+    "oeltank",
+    "peilstab",
+    "din-6608",
+    "heizkosten",
+    "co2-preis",
+    "behg",
+    "firewood",
+    "heating-oil",
+    "germany",
+    "open-data"
+  ],
+  "author": "HeizRechner <support@heizrechner.com> (https://heizrechner.com)",
+  "license": "MIT"
+}

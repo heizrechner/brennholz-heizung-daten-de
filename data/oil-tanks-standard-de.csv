@@ -1,0 +1,23 @@
+slug,name,short_name,category,tank_type,nominal_liters,diameter_cm,length_cm,tank_count,unit_length_cm,unit_width_cm,unit_height_cm,form_factor,default_height_cm,daily_usage_l,step_cm
+din-6608-1000-liter,DIN 6608 · 1.000 L Zylindertank,DIN 6608 · 1.000 L,Liegender Zylindertank (DIN 6608),zylinder,1000,100,128,,,,,,38,8,5
+din-6608-2000-liter,DIN 6608 · 2.000 L Zylindertank,DIN 6608 · 2.000 L,Liegender Zylindertank (DIN 6608),zylinder,2000,125,163,,,,,,45,10,5
+din-6608-3000-liter,DIN 6608 · 3.000 L Zylindertank,DIN 6608 · 3.000 L,Liegender Zylindertank (DIN 6608),zylinder,3000,125,245,,,,,,48,11,5
+din-6608-4000-liter,DIN 6608 · 4.000 L Zylindertank,DIN 6608 · 4.000 L,Liegender Zylindertank (DIN 6608),zylinder,4000,125,326,,,,,,50,12,5
+din-6608-5000-liter,DIN 6608 · 5.000 L Zylindertank,DIN 6608 · 5.000 L,Liegender Zylindertank (DIN 6608),zylinder,5000,160,250,,,,,,52,12,10
+din-6608-6000-liter,DIN 6608 · 6.000 L Zylindertank,DIN 6608 · 6.000 L,Liegender Zylindertank (DIN 6608),zylinder,6000,160,299,,,,,,56,14,10
+din-6608-7000-liter,DIN 6608 · 7.000 L Zylindertank,DIN 6608 · 7.000 L,Liegender Zylindertank (DIN 6608),zylinder,7000,160,348,,,,,,60,15,10
+din-6608-8000-liter,DIN 6608 · 8.000 L Zylindertank,DIN 6608 · 8.000 L,Liegender Zylindertank (DIN 6608),zylinder,8000,160,398,,,,,,62,16,10
+din-6608-10000-liter,DIN 6608 · 10.000 L Zylindertank,DIN 6608 · 10.000 L,Liegender Zylindertank (DIN 6608),zylinder,10000,160,497,,,,,,64,20,10
+din-6608-12000-liter,DIN 6608 · 12.000 L Zylindertank,DIN 6608 · 12.000 L,Liegender Zylindertank (DIN 6608),zylinder,12000,160,597,,,,,,68,24,10
+din-6608-15000-liter,DIN 6608 · 15.000 L Zylindertank,DIN 6608 · 15.000 L,Liegender Zylindertank (DIN 6608),zylinder,15000,160,746,,,,,,70,30,10
+din-6608-20000-liter,DIN 6608 · 20.000 L Zylindertank,DIN 6608 · 20.000 L,Liegender Zylindertank (DIN 6608),zylinder,20000,200,637,,,,,,78,38,10
+batterietank-2x1000-liter,Batterietank 2×1.000 L (PE),Batterietank 2×1.000 L,PE-Batterietank-Anlage,batterie,2000,,,2,110,76,125,0.9569,48,10,10
+batterietank-3x1000-liter,Batterietank 3×1.000 L (PE),Batterietank 3×1.000 L,PE-Batterietank-Anlage,batterie,3000,,,3,110,76,125,0.9569,45,12,10
+batterietank-4x1000-liter,Batterietank 4×1.000 L (PE),Batterietank 4×1.000 L,PE-Batterietank-Anlage,batterie,4000,,,4,110,76,125,0.9569,50,12,10
+batterietank-3x1500-liter,Batterietank 3×1.500 L (PE),Batterietank 3×1.500 L,PE-Batterietank-Anlage,batterie,4500,,,3,164,72,138,0.9205,52,14,10
+batterietank-4x1500-liter,Batterietank 4×1.500 L (PE),Batterietank 4×1.500 L,PE-Batterietank-Anlage,batterie,6000,,,4,164,72,138,0.9205,55,15,10
+batterietank-3x2000-liter,Batterietank 3×2.000 L (PE),Batterietank 3×2.000 L,PE-Batterietank-Anlage,batterie,6000,,,3,200,75,145,0.9195,58,16,10
+batterietank-schuetz-1000,Schütz Tank im Tank 1.000 L (3er-Batterie),Schütz 1.000 L (3×),Marken-Batterietank (Schütz),batterie,3000,,,3,113,75,125,0.9439,46,12,10
+batterietank-roth-1000,Roth DWT plus 3 · 1.000 L (3er-Batterie),Roth 1.000 L (3×),Marken-Batterietank (Roth),batterie,3000,,,3,114,72,128,0.9518,44,12,10
+batterietank-werit-1000,Werit 1.000 L PE-Tank (3er-Batterie),Werit 1.000 L (3×),Marken-Batterietank (Werit),batterie,3000,,,3,108,75,130,0.9497,50,12,10
+batterietank-schuetz-1500,Schütz Tank im Tank 1.500 L (3er-Batterie),Schütz 1.500 L (3×),Marken-Batterietank (Schütz),batterie,4500,,,3,168,75,130,0.9158,54,14,10

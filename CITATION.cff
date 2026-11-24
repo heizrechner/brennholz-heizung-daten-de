@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Berechnungsformeln oder Referenzdatensätze verwenden, zitieren Sie dieses Repository bitte wie folgt."
+title: "brennholz-heizung-daten-de: Brennholz (RM/SRM/FM), Öltank-Peilstab & Heizkosten-Daten 2026 (DE/DACH)"
+version: "2026.1.0"
+date-released: "2026-11-24"
+type: software
+license: MIT
+url: "https://heizrechner.com"
+repository-code: "https://github.com/heizrechner/brennholz-heizung-daten-de"
+authors:
+  - name: "HeizRechner"
+    website: "https://heizrechner.com"
+    email: "support@heizrechner.com"
+keywords:
+  - brennholz
+  - raummeter
+  - schuettraummeter
+  - oeltank
+  - peilstab
+  - din-6608
+  - heizkosten
+  - behg
+  - co2-preis
+  - open-data
+abstract: "Zero-dependency JavaScript/ESM calculation engine and open 2026 reference datasets (JSON/CSV) for German/DACH firewood unit conversions (RM/SRM/FM, TFZ/FNR), oil tank dipstick geometry (DIN 6608 horizontal cylinders, PE battery tanks, and spherical tanks), and four-fuel heating cost comparisons including the 2026 BEHG CO2 price."

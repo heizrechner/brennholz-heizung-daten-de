@@ -1,0 +1,16 @@
+slug,name,full_name,category,kwh_per_rm,kg_per_rm,kwh_per_kg,kwh_per_srm_33cm,oil_eq_l_per_rm,drying_years,spark_risk,stove_fit,default_price_srm_eur,default_price_srm_chf
+buche,Buche,Rotbuche (Fagus sylvatica),Hartholz,2100,470,4.47,1500,210,2 Jahre,Sehr gering,"Kaminofen, Kachelofen, offener Kamin & Holzvergaser",115,135
+eiche,Eiche,Stiel- & Traubeneiche (Quercus),Hartholz,2100,480,4.38,1500,210,2–3 Jahre,Gering,"Kachelofen, Grundofen, Dauerbrandofen & Holzvergaser",112,130
+robinie,Robinie,Gewöhnliche Robinie / Scheinakazie (Robinia pseudoacacia),Hartholz,2120,510,4.16,1514.3,212,2–3 Jahre,Mittel (gelegentliches Knistern),"Geschlossener Kaminofen, Kachelofen & Festbrennstoffkessel",118,138
+esche,Esche,Gemeine Esche (Fraxinus excelsior),Hartholz,2050,460,4.46,1464.3,205,"1,5–2 Jahre",Sehr gering,"Offener Kamin, Kaminofen & Kachelofen",112,132
+kastanie,Kastanie (Esskastanie),Esskastanie / Edelkastanie (Castanea sativa),Hartholz,2000,450,4.44,1428.6,200,2 Jahre,Hoch (starkes Knistern),Nur geschlossene Öfen & Kessel,105,124
+ahorn,Ahorn,Berg- & Spitzahorn (Acer),Hartholz,1900,430,4.42,1357.1,190,"1,5–2 Jahre",Sehr gering,"Kaminofen, offener Kamin & Kachelofen",104,122
+birke,Birke,Hänge- & Moorbirke (Betula),Hartholz,1900,430,4.42,1357.1,190,"1,5 Jahre",Sehr gering,"Offener Kamin, Kaminofen & Sichtfeuer",108,128
+kirsche,Kirsche,Vogel- & Süßkirsche (Prunus avium),Hartholz,1850,420,4.4,1321.4,185,2 Jahre,Gering,"Kaminofen, offener Kamin & Smoker/Holzbackofen",110,130
+laerche,Lärche,Europäische Lärche (Larix decidua),Nadelholz,1750,390,4.49,1250,175,"1,5 Jahre",Hoch (harzhaltig),Geschlossener Kaminofen & Holzvergaser,88,105
+douglasie,Douglasie,Gewöhnliche Douglasie (Pseudotsuga menziesii),Nadelholz,1700,370,4.59,1214.3,170,"1–1,5 Jahre",Mittel bis hoch,"Geschlossener Kaminofen, Werkstattofen & Kessel",85,100
+kiefer,Kiefer,Waldkiefer (Pinus sylvestris),Nadelholz,1650,360,4.58,1178.6,165,"1–1,5 Jahre",Hoch (Harzblasen),Geschlossener Kaminofen & Holzvergaser,82,96
+fichte,Fichte,Gemeine Fichte (Picea abies),Nadelholz,1500,330,4.55,1071.4,150,1 Jahr,Hoch (starker Funkenflug),"Anmachholz, geschlossener Kaminofen & Holzvergaser",78,92
+erle,Erle,Schwarz- & Grauerle (Alnus),Weichlaub,1450,330,4.39,1035.7,145,1 Jahr,Sehr gering,"Offener Kamin, Kaminofen & Räucherofen",76,90
+weide,Weide,Sal- & Silberweide (Salix),Weichlaub,1350,310,4.35,964.3,135,1 Jahr,Gering,"Anmachholz, Übergangszeit & Holzvergaser",68,80
+pappel,Pappel,Schwarz- & Hybridpappel (Populus),Weichlaub,1200,280,4.29,857.1,120,1 Jahr,Gering,"Anmachholz, Werkstattofen & Hackschnitzel",60,72
