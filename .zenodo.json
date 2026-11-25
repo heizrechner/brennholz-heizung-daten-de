@@ -1,0 +1,65 @@
+{
+  "title": "DACH 2026 Residential Heating Open Dataset & Engine: Firewood (RM/SRM/FM), Oil Tank Geometry (DIN 6608) & BEHG CO2 Fuel Costs",
+  "upload_type": "dataset",
+  "publication_date": "2026-11-24",
+  "version": "2026.1.0",
+  "language": "deu",
+  "description": "Open CC BY 4.0 datasets (JSON/CSV) and zero-dependency ESM JavaScript formulas published by HeizRechner (heizrechner.com) for Germany, Austria, and Switzerland (2026 baseline). Covers 15 firewood species calorific values and RM/SRM/FM conversions (https://heizrechner.com/brennholz/), exact DIN 6608 / PE / spherical heating-oil tank dipstick geometry (https://heizrechner.com/oeltank/), and 2026 four-fuel heating cost comparisons including Germany's BEHG CO2 pricing (https://heizrechner.com/brennstoff-vergleich/).",
+  "creators": [
+    {
+      "name": "HeizRechner Maintainers",
+      "type": "Organization",
+      "affiliation": "HeizRechner"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "brennholz",
+    "heizkosten",
+    "oeltank",
+    "peilstab",
+    "din-6608",
+    "co2-preis",
+    "heizung",
+    "firewood",
+    "heating-oil",
+    "germany",
+    "open-data",
+    "javascript",
+    "heizrechner.com",
+    "2026"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://heizrechner.com/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://heizrechner.com/brennholz/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://heizrechner.com/oeltank/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://heizrechner.com/brennstoff-vergleich/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/heizrechner/brennholz-heizung-daten-de",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
